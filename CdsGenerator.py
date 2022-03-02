@@ -15,10 +15,8 @@ v = VerticaRequests()
 print("************* CDS SQL STATEMENT GENERATOR ************************")
 schemaName = raw_input("SCHEMA NAME (if schema is UNIVERSALHS_MILLENNIUM    just click enter):")
 if len(schemaName) == 0:
-    schemaName = 'UNIVERSALHS_MILLENNIUM   '
+    schemaName = '~~millenniumSchemaName~~   '
 
-if len1(schemaName) == 0:
-    schemaName1 = 'UNIVERSALHS_MILLENNIUM   '
 
 tableValue = raw_input("TABLE NAME:")
 
