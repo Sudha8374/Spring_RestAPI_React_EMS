@@ -17,6 +17,9 @@ schemaName = raw_input("SCHEMA NAME (if schema is UNIVERSALHS_MILLENNIUM    just
 if len(schemaName) == 0:
     schemaName = 'UNIVERSALHS_MILLENNIUM   '
 
+if len1(schemaName) == 0:
+    schemaName1 = 'UNIVERSALHS_MILLENNIUM   '
+
 tableValue = raw_input("TABLE NAME:")
 
 x = tableValue.split('_')
